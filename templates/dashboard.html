@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — CareConnect Telemedicine</title>
+  <meta name="description" content="View and manage all your CareConnect telemedicine appointments in one place.">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header" role="banner">
+  <div class="header-brand">
+    <div class="brand-icon" aria-hidden="true">🏥</div>
+    <div>
+      <div class="brand-name">CareConnect</div>
+      <span class="brand-tagline">Appointments Dashboard</span>
+    </div>
+  </div>
+  <div class="header-actions">
+    <div class="status-indicator">
+      <div class="status-dot"></div>
+      <span>Live</span>
+    </div>
+    <a href="/" class="btn btn-ghost" id="chat-link">💬 Chat</a>
+    <a href="/" class="btn btn-primary" id="book-btn">📅 Book Appointment</a>
+  </div>
+</header>
+
+<!-- Dashboard Body -->
+<main class="dashboard-layout" role="main">
+  <div class="dashboard-header">
+    <div>
+      <h1 class="dashboard-title">📋 All Appointments</h1>
+      <p class="dashboard-subtitle">Manage and track all booked appointments</p>
+    </div>
+
+    <!-- Summary Badges -->
+    <div style="display:flex;gap:12px;flex-wrap:wrap;">
+      {% set confirmed_count = appointments | selectattr('status','equalto','Confirmed') | list | length %}
+      {% set rescheduled_count = appointments | selectattr('status','equalto','Rescheduled') | list | length %}
+      {% set cancelled_count = appointments | selectattr('status','equalto','Cancelled') | list | length %}
+
+      <div style="padding:10px 18px;background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.3);border-radius:var(--radius-full);font-size:0.85rem;color:var(--accent-success);">
+        ✅ {{ confirmed_count }} Confirmed
+      </div>
+      <div style="padding:10px 18px;background:rgba(6,182,212,0.1);border:1px solid rgba(6,182,212,0.3);border-radius:var(--radius-full);font-size:0.85rem;color:var(--accent-tertiary);">
+        🔄 {{ rescheduled_count }} Rescheduled
+      </div>
+      <div style="padding:10px 18px;background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.3);border-radius:var(--radius-full);font-size:0.85rem;color:var(--accent-danger);">
+        ❌ {{ cancelled_count }} Cancelled
+      </div>
+    </div>
+  </div>
+
+  <!-- Appointments Grid -->
+  <div class="appointments-grid" role="list">
+    {% if appointments %}
+      {% for apt in appointments %}
+      <article class="apt-card {{ apt.status | lower }}" role="listitem" id="apt-{{ apt.appointment_id }}">
+        <div class="apt-card-header">
+          <div>
+            <div class="apt-id-text">🎟️ {{ apt.appointment_id }}</div>
+          </div>
+          {% if apt.status == 'Confirmed' %}
+            <span class="status-badge status-confirmed">● Confirmed</span>
+          {% elif apt.status == 'Rescheduled' %}
+            <span class="status-badge status-rescheduled">● Rescheduled</span>
+          {% else %}
+            <span class="status-badge status-cancelled">● Cancelled</span>
+          {% endif %}
+        </div>
+
+        <div class="apt-doctor">
+          <div class="apt-doctor-avatar">👨‍⚕️</div>
+          <div>
+            <div class="apt-doctor-name">{{ apt.doctor_name }}</div>
+            <div class="apt-doctor-spec">{{ apt.specialization }} {% if apt.rating %}| ⭐ {{ apt.rating }}{% endif %}</div>
+          </div>
+        </div>
+
+        <div class="apt-details">
+          <div class="apt-detail-item">
+            <div class="apt-detail-label">🆔 Patient ID</div>
+            <div class="apt-detail-val">{{ apt.patient_id }}</div>
+          </div>
+          <div class="apt-detail-item">
+            <div class="apt-detail-label">👤 Patient</div>
+            <div class="apt-detail-val">{{ apt.patient_name }}</div>
+          </div>
+          <div class="apt-detail-item">
+            <div class="apt-detail-label">🏥 Hospital</div>
+            <div class="apt-detail-val">{{ apt.hospital_name }}</div>
+          </div>
+          <div class="apt-detail-item">
+            <div class="apt-detail-label">📍 City</div>
+            <div class="apt-detail-val">{{ apt.city }}</div>
+          </div>
+          <div class="apt-detail-item">
+            <div class="apt-detail-label">📅 Date</div>
+            <div class="apt-detail-val">{{ apt.date }}</div>
+          </div>
+          <div class="apt-detail-item">
+            <div class="apt-detail-label">⏰ Time</div>
+            <div class="apt-detail-val">{{ apt.time }}</div>
+          </div>
+          <div class="apt-detail-item">
+            <div class="apt-detail-label">📆 Booked On</div>
+            <div class="apt-detail-val">{{ apt.created_at[:10] }}</div>
+          </div>
+        </div>
+
+        {% if apt.status != 'Cancelled' %}
+        <div style="display:flex;gap:8px;margin-top:16px;">
+          <a href="/?action=reschedule&id={{ apt.appointment_id }}"
+             class="btn btn-ghost"
+             style="flex:1;justify-content:center;font-size:0.8rem;"
+             id="reschedule-{{ apt.appointment_id }}">
+            🔄 Reschedule
+          </a>
+          <a href="/?action=cancel&id={{ apt.appointment_id }}"
+             class="btn"
+             style="flex:1;justify-content:center;font-size:0.8rem;background:rgba(239,68,68,0.1);color:var(--accent-danger);border:1px solid rgba(239,68,68,0.3);"
+             id="cancel-{{ apt.appointment_id }}">
+            ❌ Cancel
+          </a>
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
+    {% else %}
+      <div class="empty-state">
+        <div class="empty-icon">📋</div>
+        <h2 class="empty-title">No Appointments Yet</h2>
+        <p>Start by booking your first appointment with our AI chatbot.</p>
+        <a href="/" class="btn btn-primary" style="margin-top:20px;display:inline-flex;" id="book-first">
+          📅 Book Appointment
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</main>
+
+<script>
+// Handle deep-link to chat with pre-filled action
+const urlParams = new URLSearchParams(window.location.search);
+const action = urlParams.get('action');
+const aptId = urlParams.get('id');
+if (action && aptId) {
+  sessionStorage.setItem('pending_action', action);
+  sessionStorage.setItem('pending_apt_id', aptId);
+  window.location.href = '/';
+}
+</script>
+</body>
+</html>

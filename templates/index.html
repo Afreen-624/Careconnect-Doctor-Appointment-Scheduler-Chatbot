@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareConnect — AI Telemedicine Appointment Chatbot</title>
+  <meta name="description" content="Book doctor appointments instantly with CareConnect's AI-powered telemedicine chatbot. Smart recommendations, multi-city branches, real-time slot booking.">
+  <meta name="keywords" content="telemedicine, doctor appointment, AI chatbot, healthcare, online booking">
+  <meta property="og:title" content="CareConnect — AI Telemedicine Chatbot">
+  <meta property="og:description" content="Book doctor appointments with AI assistance">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
+  <!-- QR Code Library -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+<div class="app-layout">
+  <!-- ── Header ── -->
+  <header class="header" role="banner">
+    <div class="header-brand">
+      <div class="brand-icon" aria-hidden="true">🏥</div>
+      <div>
+        <div class="brand-name">CareConnect</div>
+        <span class="brand-tagline">AI Telemedicine Chatbot</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="status-indicator" role="status" aria-live="polite">
+        <div class="status-dot" aria-hidden="true"></div>
+        <span>AI Active</span>
+      </div>
+      <a href="/dashboard" class="btn btn-ghost" id="dashboard-link">
+        📋 Dashboard
+      </a>
+      <button class="btn btn-primary" id="new-chat-btn" onclick="location.reload()" aria-label="Start new chat">
+        ✨ New Chat
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Chat Layout ── -->
+  <div class="chat-container" role="main">
+
+    <!-- ── Sidebar ── -->
+    <aside class="sidebar" role="complementary" aria-label="Quick actions">
+      <div>
+        <div class="sidebar-section-title">Quick Actions</div>
+        <div class="quick-actions">
+          <button class="quick-action-btn" data-action="book" id="qa-book" aria-label="Book appointment">
+            <div class="icon icon-book">📅</div>
+            <span>Book Appointment</span>
+          </button>
+          <button class="quick-action-btn" data-action="reschedule" id="qa-reschedule" aria-label="Reschedule appointment">
+            <div class="icon icon-reschedule">🔄</div>
+            <span>Reschedule</span>
+          </button>
+          <button class="quick-action-btn" data-action="cancel" id="qa-cancel" aria-label="Cancel appointment">
+            <div class="icon icon-cancel">❌</div>
+            <span>Cancel Appointment</span>
+          </button>
+          <a class="quick-action-btn" href="/dashboard" id="qa-dashboard" aria-label="View dashboard">
+            <div class="icon icon-dashboard">📋</div>
+            <span>View Dashboard</span>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="sidebar-section-title">Session Stats</div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-value" id="stat-confirmed">0</div>
+            <div class="stat-label">Confirmed</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="stat-total">0</div>
+            <div class="stat-label">Total Apts</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="sidebar-section-title">Available States</div>
+        <div class="sidebar-states" id="sidebar-states">
+          <div class="sidebar-item">🗺️ Telangana</div>
+          <div class="sidebar-item">🗺️ Karnataka</div>
+          <div class="sidebar-item">🗺️ Maharashtra</div>
+          <div class="sidebar-item">🗺️ Delhi NCR</div>
+          <div class="sidebar-item">🗺️ Tamil Nadu</div>
+          <div class="sidebar-item">🗺️ West Bengal</div>
+          <div class="sidebar-item">🗺️ Uttar Pradesh</div>
+          <div class="sidebar-item">🗺️ Rajasthan</div>
+        </div>
+      </div>
+
+      <div style="margin-top:auto;">
+        <div style="font-size:0.75rem;color:var(--text-muted);text-align:center;line-height:1.5;">
+          Powered by<br>
+          <span style="color:var(--accent-primary);font-weight:600;">Sarvam AI</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ── Chat Main ── -->
+    <section class="chat-main" aria-label="Chat conversation">
+      <!-- Messages -->
+      <div class="chat-messages" id="chat-messages" role="log" aria-live="polite" aria-label="Chat messages">
+        <!-- Messages will be injected here by JavaScript -->
+      </div>
+
+      <!-- Input Area -->
+      <div class="chat-input-area">
+        <div class="input-wrapper" role="form" aria-label="Send message">
+          <textarea
+            id="chat-input"
+            placeholder="Type your message or select an option above..."
+            rows="1"
+            aria-label="Chat message input"
+            autocomplete="off"
+            spellcheck="true"
+          ></textarea>
+          <button class="send-btn" id="send-btn" aria-label="Send message" title="Send">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </div>
+        <div class="input-hints" role="group" aria-label="Quick message suggestions">
+          <span class="hint-chip">Book appointment</span>
+          <span class="hint-chip">Reschedule</span>
+          <span class="hint-chip">Cancel appointment</span>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>

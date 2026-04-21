@@ -1,0 +1,42 @@
+[
+  {
+    "id": "TG",
+    "name": "Telangana",
+    "cities": ["Hyderabad", "Warangal", "Karimnagar"]
+  },
+  {
+    "id": "KA",
+    "name": "Karnataka",
+    "cities": ["Bangalore", "Mysore", "Hubli"]
+  },
+  {
+    "id": "MH",
+    "name": "Maharashtra",
+    "cities": ["Mumbai", "Pune", "Nagpur"]
+  },
+  {
+    "id": "DL",
+    "name": "Delhi NCR",
+    "cities": ["New Delhi", "Gurgaon", "Noida"]
+  },
+  {
+    "id": "TN",
+    "name": "Tamil Nadu",
+    "cities": ["Chennai", "Coimbatore", "Madurai"]
+  },
+  {
+    "id": "WB",
+    "name": "West Bengal",
+    "cities": ["Kolkata", "Howrah", "Durgapur"]
+  },
+  {
+    "id": "UP",
+    "name": "Uttar Pradesh",
+    "cities": ["Lucknow", "Agra", "Kanpur"]
+  },
+  {
+    "id": "RJ",
+    "name": "Rajasthan",
+    "cities": ["Jaipur", "Jodhpur", "Udaipur"]
+  }
+]

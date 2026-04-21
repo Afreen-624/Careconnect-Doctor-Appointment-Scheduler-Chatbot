@@ -1,0 +1,182 @@
+[
+  {
+    "id": "HYD001",
+    "name": "CareConnect – Punjagutta",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "address": "Road No. 12, Punjagutta, Hyderabad – 500082",
+    "phone": "+91 40 2345 6789",
+    "doctor_ids": ["D001", "D002", "D003", "D004", "D005"]
+  },
+  {
+    "id": "HYD002",
+    "name": "CareConnect – Madhapur",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "address": "Plot 45, Hitech City Road, Madhapur, Hyderabad – 500081",
+    "phone": "+91 40 2987 6543",
+    "doctor_ids": ["D006", "D007", "D008", "D009"]
+  },
+  {
+    "id": "WAR001",
+    "name": "CareConnect – Warangal Central",
+    "state": "Telangana",
+    "city": "Warangal",
+    "address": "Hanamkonda Road, Warangal – 506001",
+    "phone": "+91 870 2345 678",
+    "doctor_ids": ["D010", "D011", "D012"]
+  },
+  {
+    "id": "BLR001",
+    "name": "CareConnect – Koramangala",
+    "state": "Karnataka",
+    "city": "Bangalore",
+    "address": "80 Feet Road, 4th Block, Koramangala, Bangalore – 560034",
+    "phone": "+91 80 4123 5678",
+    "doctor_ids": ["D013", "D014", "D015", "D016"]
+  },
+  {
+    "id": "BLR002",
+    "name": "CareConnect – Whitefield",
+    "state": "Karnataka",
+    "city": "Bangalore",
+    "address": "ITPL Main Road, Whitefield, Bangalore – 560066",
+    "phone": "+91 80 4987 6543",
+    "doctor_ids": ["D017", "D018", "D019"]
+  },
+  {
+    "id": "MYS001",
+    "name": "CareConnect – Mysore City",
+    "state": "Karnataka",
+    "city": "Mysore",
+    "address": "Sayyaji Rao Road, Mysore – 570001",
+    "phone": "+91 821 2345 678",
+    "doctor_ids": ["D020", "D021", "D022"]
+  },
+  {
+    "id": "MUM001",
+    "name": "CareConnect – Bandra",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "address": "Linking Road, Bandra West, Mumbai – 400050",
+    "phone": "+91 22 6123 4567",
+    "doctor_ids": ["D023", "D024", "D025", "D026"]
+  },
+  {
+    "id": "MUM002",
+    "name": "CareConnect – Andheri",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "address": "Andheri East, Near Metro Station, Mumbai – 400069",
+    "phone": "+91 22 6987 6543",
+    "doctor_ids": ["D027", "D028", "D029"]
+  },
+  {
+    "id": "PUN001",
+    "name": "CareConnect – Hinjewadi",
+    "state": "Maharashtra",
+    "city": "Pune",
+    "address": "Phase 1, Hinjewadi IT Park, Pune – 411057",
+    "phone": "+91 20 6123 4567",
+    "doctor_ids": ["D030", "D031", "D032"]
+  },
+  {
+    "id": "NAG001",
+    "name": "CareConnect – Nagpur Central",
+    "state": "Maharashtra",
+    "city": "Nagpur",
+    "address": "Sitabuldi, Nagpur – 440012",
+    "phone": "+91 712 2345 678",
+    "doctor_ids": ["D033", "D034"]
+  },
+  {
+    "id": "DEL001",
+    "name": "CareConnect – Connaught Place",
+    "state": "Delhi NCR",
+    "city": "New Delhi",
+    "address": "Block A, Connaught Place, New Delhi – 110001",
+    "phone": "+91 11 4123 5678",
+    "doctor_ids": ["D035", "D036", "D037"]
+  },
+  {
+    "id": "GUR001",
+    "name": "CareConnect – Cyber City",
+    "state": "Delhi NCR",
+    "city": "Gurgaon",
+    "address": "DLF Cyber City, Sector 24, Gurgaon – 122002",
+    "phone": "+91 124 4123 567",
+    "doctor_ids": ["D038", "D039", "D040"]
+  },
+  {
+    "id": "NOI001",
+    "name": "CareConnect – Sector 18",
+    "state": "Delhi NCR",
+    "city": "Noida",
+    "address": "Sector 18 Market, Noida – 201301",
+    "phone": "+91 120 4123 567",
+    "doctor_ids": ["D041", "D042"]
+  },
+  {
+    "id": "CHE001",
+    "name": "CareConnect – Anna Nagar",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "address": "2nd Avenue, Anna Nagar, Chennai – 600040",
+    "phone": "+91 44 4123 5678",
+    "doctor_ids": ["D043", "D044", "D045", "D046"]
+  },
+  {
+    "id": "CHE002",
+    "name": "CareConnect – T. Nagar",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "address": "Usman Road, T. Nagar, Chennai – 600017",
+    "phone": "+91 44 4987 6543",
+    "doctor_ids": ["D047", "D048", "D049"]
+  },
+  {
+    "id": "COI001",
+    "name": "CareConnect – Coimbatore",
+    "state": "Tamil Nadu",
+    "city": "Coimbatore",
+    "address": "Avinashi Road, Coimbatore – 641014",
+    "phone": "+91 422 2345 678",
+    "doctor_ids": ["D050", "D051"]
+  },
+  {
+    "id": "KOL001",
+    "name": "CareConnect – Salt Lake",
+    "state": "West Bengal",
+    "city": "Kolkata",
+    "address": "Sector V, Salt Lake City, Kolkata – 700091",
+    "phone": "+91 33 4123 5678",
+    "doctor_ids": ["D052", "D053", "D054"]
+  },
+  {
+    "id": "KOL002",
+    "name": "CareConnect – Park Street",
+    "state": "West Bengal",
+    "city": "Kolkata",
+    "address": "Park Street, Kolkata – 700016",
+    "phone": "+91 33 4987 6543",
+    "doctor_ids": ["D055", "D056"]
+  },
+  {
+    "id": "LKO001",
+    "name": "CareConnect – Hazratganj",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "address": "Hazratganj Market Area, Lucknow – 226001",
+    "phone": "+91 522 2345 678",
+    "doctor_ids": ["D057", "D058"]
+  },
+  {
+    "id": "JAI001",
+    "name": "CareConnect – Malviya Nagar",
+    "state": "Rajasthan",
+    "city": "Jaipur",
+    "address": "Malviya Nagar, Jaipur – 302017",
+    "phone": "+91 141 2345 678",
+    "doctor_ids": ["D059", "D060"]
+  }
+]

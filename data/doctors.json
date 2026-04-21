@@ -1,0 +1,1506 @@
+[
+  {
+    "id": "D001",
+    "name": "Dr. Priya Sharma",
+    "specialization": "Dermatologist",
+    "rating": 4.8,
+    "experience": 12,
+    "fee": 800,
+    "branch_id": "HYD001",
+    "about": "MBBS, MD Dermatology. Expert in acne, eczema, psoriasis, hair loss and cosmetic treatments.",
+    "available_slots": [
+      "9:30 AM",
+      "10:30 AM",
+      "12:00 PM",
+      "2:00 PM",
+      "4:30 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D002",
+    "name": "Dr. Ramesh Gupta",
+    "specialization": "Dermatologist",
+    "rating": 4.5,
+    "experience": 8,
+    "fee": 650,
+    "branch_id": "HYD001",
+    "about": "MBBS, DVD. Specialist in skin infections, allergies, vitiligo, and hair treatments.",
+    "available_slots": [
+      "9:00 AM",
+      "11:00 AM",
+      "1:00 PM",
+      "3:30 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D003",
+    "name": "Dr. Anil Reddy",
+    "specialization": "Cardiologist",
+    "rating": 4.9,
+    "experience": 20,
+    "fee": 1200,
+    "branch_id": "HYD001",
+    "about": "MD, DM Cardiology. Specialist in heart diseases, hypertension, and cardiac intervention.",
+    "available_slots": [
+      "10:00 AM",
+      "11:30 AM",
+      "2:30 PM",
+      "4:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D004",
+    "name": "Dr. Sunita Rao",
+    "specialization": "Neurologist",
+    "rating": 4.7,
+    "experience": 15,
+    "fee": 1000,
+    "branch_id": "HYD001",
+    "about": "MD, DM Neurology. Expert in migraines, epilepsy, stroke recovery, and movement disorders.",
+    "available_slots": [
+      "9:00 AM",
+      "11:00 AM",
+      "3:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D005",
+    "name": "Dr. Ananya Singh",
+    "specialization": "General Physician",
+    "rating": 4.3,
+    "experience": 6,
+    "fee": 500,
+    "branch_id": "HYD001",
+    "about": "MBBS, MD General Medicine. Experienced in managing fever, infections, diabetes, and chronic illnesses.",
+    "available_slots": [
+      "9:00 AM",
+      "9:30 AM",
+      "10:30 AM",
+      "12:00 PM",
+      "1:00 PM",
+      "3:00 PM",
+      "5:00 PM",
+      "6:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D006",
+    "name": "Dr. Kavya Nair",
+    "specialization": "Pediatrician",
+    "rating": 4.6,
+    "experience": 10,
+    "fee": 700,
+    "branch_id": "HYD002",
+    "about": "MBBS, MD Pediatrics. Expert in child health, growth monitoring, vaccination schedules, and newborn care.",
+    "available_slots": [
+      "9:30 AM",
+      "10:30 AM",
+      "12:00 PM",
+      "2:00 PM",
+      "4:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D007",
+    "name": "Dr. Mohan Verma",
+    "specialization": "Orthopedist",
+    "rating": 4.4,
+    "experience": 14,
+    "fee": 900,
+    "branch_id": "HYD002",
+    "about": "MS Orthopedics. Expert in knee/hip replacement, spine disorders, sports injuries, and fracture care.",
+    "available_slots": [
+      "10:00 AM",
+      "11:30 AM",
+      "2:00 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {
+      "24 April 2026": [
+        "10:00 AM"
+      ]
+    }
+  },
+  {
+    "id": "D008",
+    "name": "Dr. Ravi Shankar",
+    "specialization": "Pulmonologist",
+    "rating": 4.5,
+    "experience": 11,
+    "fee": 850,
+    "branch_id": "HYD002",
+    "about": "MD Pulmonary Medicine. Expert in asthma, COPD, tuberculosis, and sleep apnea.",
+    "available_slots": [
+      "9:00 AM",
+      "11:00 AM",
+      "2:30 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "booked_slots": {
+      "22 April 2026": [
+        "9:00 AM"
+      ]
+    }
+  },
+  {
+    "id": "D009",
+    "name": "Dr. Poornima Devi",
+    "specialization": "Ophthalmologist",
+    "rating": 4.7,
+    "experience": 13,
+    "fee": 750,
+    "branch_id": "HYD002",
+    "about": "MS Ophthalmology. Expert in cataract, refractive errors, glaucoma, and diabetic retinopathy.",
+    "available_slots": [
+      "9:30 AM",
+      "11:00 AM",
+      "1:30 PM",
+      "3:30 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {
+      "25 April 2026": [
+        "11:00 AM"
+      ]
+    }
+  },
+  {
+    "id": "D010",
+    "name": "Dr. Suresh Kumar",
+    "specialization": "General Physician",
+    "rating": 4.2,
+    "experience": 7,
+    "fee": 400,
+    "branch_id": "WAR001",
+    "about": "MBBS, General Medicine. Handles fever, cold, infections, diabetes follow-up, and preventive care.",
+    "available_slots": [
+      "9:00 AM",
+      "10:00 AM",
+      "11:00 AM",
+      "12:00 PM",
+      "2:00 PM",
+      "4:00 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D011",
+    "name": "Dr. Lalitha Prasad",
+    "specialization": "Dermatologist",
+    "rating": 4.4,
+    "experience": 9,
+    "fee": 600,
+    "branch_id": "WAR001",
+    "about": "DVD, MD Dermatology. Treats skin infections, rashes, acne, and allergic conditions.",
+    "available_slots": [
+      "9:30 AM",
+      "11:30 AM",
+      "2:00 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D012",
+    "name": "Dr. Kiran Babu",
+    "specialization": "Orthopedist",
+    "rating": 4.3,
+    "experience": 12,
+    "fee": 800,
+    "branch_id": "WAR001",
+    "about": "MS Orthopedics. Expert in bone fractures, joint pain, arthritis management, and rehabilitation.",
+    "available_slots": [
+      "10:00 AM",
+      "1:00 PM",
+      "4:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D013",
+    "name": "Dr. Rajesh Kumar",
+    "specialization": "Cardiologist",
+    "rating": 4.8,
+    "experience": 18,
+    "fee": 1100,
+    "branch_id": "BLR001",
+    "about": "DM Cardiology. Expert in coronary artery disease, heart failure, arrhythmia, and preventive cardiology.",
+    "available_slots": [
+      "10:30 AM",
+      "12:00 PM",
+      "2:00 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D014",
+    "name": "Dr. Meera Krishnan",
+    "specialization": "Dermatologist",
+    "rating": 4.6,
+    "experience": 9,
+    "fee": 750,
+    "branch_id": "BLR001",
+    "about": "MD Dermatology. Expert in skin pigmentation, hair disorders, nail diseases, and cosmetic dermatology.",
+    "available_slots": [
+      "9:00 AM",
+      "11:00 AM",
+      "1:30 PM",
+      "3:30 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "booked_slots": {
+      "24 April 2026": [
+        "11:00 AM"
+      ]
+    }
+  },
+  {
+    "id": "D015",
+    "name": "Dr. Venkat Rao",
+    "specialization": "Endocrinologist",
+    "rating": 4.7,
+    "experience": 16,
+    "fee": 1050,
+    "branch_id": "BLR001",
+    "about": "DM Endocrinology. Expert in diabetes, thyroid disorders, hormonal imbalances, and obesity management.",
+    "available_slots": [
+      "9:30 AM",
+      "11:30 AM",
+      "2:30 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D016",
+    "name": "Dr. Shobha Gowda",
+    "specialization": "General Physician",
+    "rating": 4.2,
+    "experience": 5,
+    "fee": 450,
+    "branch_id": "BLR001",
+    "about": "MBBS, MD. Handles all general health concerns, routine checkups, and chronic disease management.",
+    "available_slots": [
+      "9:00 AM",
+      "10:00 AM",
+      "11:00 AM",
+      "12:00 PM",
+      "1:00 PM",
+      "3:00 PM",
+      "5:00 PM",
+      "6:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D017",
+    "name": "Dr. Pooja Menon",
+    "specialization": "Neurologist",
+    "rating": 4.9,
+    "experience": 22,
+    "fee": 1300,
+    "branch_id": "BLR002",
+    "about": "MD, DM Neurology. Expert in epilepsy, Parkinson's, stroke, dementia, and neuropathy.",
+    "available_slots": [
+      "9:30 AM",
+      "11:00 AM",
+      "2:00 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D018",
+    "name": "Dr. Amith Shetty",
+    "specialization": "Psychiatrist",
+    "rating": 4.5,
+    "experience": 10,
+    "fee": 1000,
+    "branch_id": "BLR002",
+    "about": "MD Psychiatry. Specialist in depression, anxiety, OCD, ADHD, and psychotherapy.",
+    "available_slots": [
+      "10:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D019",
+    "name": "Dr. Nirmala Rao",
+    "specialization": "Pediatrician",
+    "rating": 4.5,
+    "experience": 12,
+    "fee": 700,
+    "branch_id": "BLR002",
+    "about": "MD Pediatrics. Expert in child nutrition, developmental milestones, vaccination, and infectious diseases.",
+    "available_slots": [
+      "9:00 AM",
+      "10:30 AM",
+      "12:00 PM",
+      "4:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D020",
+    "name": "Dr. Prakash Urs",
+    "specialization": "General Physician",
+    "rating": 4.3,
+    "experience": 8,
+    "fee": 450,
+    "branch_id": "MYS001",
+    "about": "MBBS, MD. Specialises in fever, infections, lifestyle diseases, and routine health checkups.",
+    "available_slots": [
+      "9:00 AM",
+      "10:00 AM",
+      "11:30 AM",
+      "1:00 PM",
+      "3:00 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D021",
+    "name": "Dr. Savitha Kumar",
+    "specialization": "Cardiologist",
+    "rating": 4.6,
+    "experience": 14,
+    "fee": 1000,
+    "branch_id": "MYS001",
+    "about": "DM Cardiology. Specialist in hypertension, cardiac screening, ECG interpretation, and preventive cardiology.",
+    "available_slots": [
+      "10:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D022",
+    "name": "Dr. Pallavi Reddy",
+    "specialization": "Dermatologist",
+    "rating": 4.4,
+    "experience": 7,
+    "fee": 600,
+    "branch_id": "MYS001",
+    "about": "MD Dermatology. Handles skin allergies, fungal infections, acne, and cosmetic skin concerns.",
+    "available_slots": [
+      "9:30 AM",
+      "11:00 AM",
+      "2:30 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D023",
+    "name": "Dr. Arvind Shah",
+    "specialization": "Cardiologist",
+    "rating": 4.9,
+    "experience": 25,
+    "fee": 1500,
+    "branch_id": "MUM001",
+    "about": "DM Cardiology, FRCP. Head of Cardiac Surgery. Expert in bypass surgery, stenting, and complex cardiac cases.",
+    "available_slots": [
+      "10:00 AM",
+      "12:00 PM",
+      "3:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D024",
+    "name": "Dr. Preethi Iyer",
+    "specialization": "Gastroenterologist",
+    "rating": 4.7,
+    "experience": 15,
+    "fee": 1100,
+    "branch_id": "MUM001",
+    "about": "DM Gastroenterology. Expert in liver diseases, IBS, colitis, endoscopy, and digestive disorders.",
+    "available_slots": [
+      "9:30 AM",
+      "11:30 AM",
+      "2:00 PM",
+      "4:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D025",
+    "name": "Dr. Sameer Joshi",
+    "specialization": "Nephrologist",
+    "rating": 4.6,
+    "experience": 14,
+    "fee": 1200,
+    "branch_id": "MUM001",
+    "about": "DM Nephrology. Expert in kidney disease, dialysis management, kidney stones, and transplant care.",
+    "available_slots": [
+      "9:00 AM",
+      "11:00 AM",
+      "2:30 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D026",
+    "name": "Dr. Manisha Patel",
+    "specialization": "Neurologist",
+    "rating": 4.7,
+    "experience": 17,
+    "fee": 1200,
+    "branch_id": "MUM001",
+    "about": "DM Neurology. Specialist in migraines, spine disorders, Alzheimer's, and neuro-rehabilitation.",
+    "available_slots": [
+      "10:30 AM",
+      "1:00 PM",
+      "3:30 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D027",
+    "name": "Dr. Nisha Desai",
+    "specialization": "Dermatologist",
+    "rating": 4.6,
+    "experience": 11,
+    "fee": 800,
+    "branch_id": "MUM002",
+    "about": "MD Dermatology. Expert in cosmetic dermatology, pigmentation, vitiligo, and anti-aging treatments.",
+    "available_slots": [
+      "9:00 AM",
+      "11:00 AM",
+      "1:00 PM",
+      "3:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D028",
+    "name": "Dr. Rajan Kulkarni",
+    "specialization": "Pulmonologist",
+    "rating": 4.5,
+    "experience": 12,
+    "fee": 900,
+    "branch_id": "MUM002",
+    "about": "MD, DNB Pulmonary Medicine. Treats bronchitis, allergy-induced asthma, COPD, and pulmonary fibrosis.",
+    "available_slots": [
+      "9:30 AM",
+      "11:30 AM",
+      "2:30 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D029",
+    "name": "Dr. Rohini Mehta",
+    "specialization": "Endocrinologist",
+    "rating": 4.8,
+    "experience": 18,
+    "fee": 1150,
+    "branch_id": "MUM002",
+    "about": "DM Endocrinology. Expert in Type 1 & 2 diabetes, thyroid cancer, adrenal disorders, and PCOS.",
+    "available_slots": [
+      "10:00 AM",
+      "12:30 PM",
+      "3:00 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D030",
+    "name": "Dr. Abhijit Patil",
+    "specialization": "General Physician",
+    "rating": 4.3,
+    "experience": 7,
+    "fee": 500,
+    "branch_id": "PUN001",
+    "about": "MBBS, MD. Handles acute fever, infections, seasonal illnesses, and routine health monitoring.",
+    "available_slots": [
+      "9:00 AM",
+      "10:00 AM",
+      "11:30 AM",
+      "1:00 PM",
+      "3:30 PM",
+      "5:00 PM",
+      "6:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D031",
+    "name": "Dr. Snehal Deshpande",
+    "specialization": "Cardiologist",
+    "rating": 4.7,
+    "experience": 16,
+    "fee": 1100,
+    "branch_id": "PUN001",
+    "about": "DM Cardiology. Expert in echo-cardiography, hypertension, and cardiac risk assessment.",
+    "available_slots": [
+      "10:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D032",
+    "name": "Dr. Vikram Bane",
+    "specialization": "Orthopedist",
+    "rating": 4.6,
+    "experience": 14,
+    "fee": 950,
+    "branch_id": "PUN001",
+    "about": "MS Orthopedics. Specialist in sports injuries, arthroscopic surgery, and joint replacement.",
+    "available_slots": [
+      "9:30 AM",
+      "11:30 AM",
+      "2:00 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D033",
+    "name": "Dr. Mukesh Thakre",
+    "specialization": "General Physician",
+    "rating": 4.1,
+    "experience": 9,
+    "fee": 400,
+    "branch_id": "NAG001",
+    "about": "MBBS, MD. Handles general health complaints, fever, cold, and lifestyle disease management.",
+    "available_slots": [
+      "9:00 AM",
+      "10:30 AM",
+      "12:00 PM",
+      "2:30 PM",
+      "4:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D034",
+    "name": "Dr. Vidya Tiwari",
+    "specialization": "Dermatologist",
+    "rating": 4.4,
+    "experience": 8,
+    "fee": 600,
+    "branch_id": "NAG001",
+    "about": "MD Dermatology. Expertise in skin rashes, hair fall, nail disorders, and cosmetology.",
+    "available_slots": [
+      "9:30 AM",
+      "11:00 AM",
+      "2:00 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D035",
+    "name": "Dr. Arjun Malhotra",
+    "specialization": "Cardiologist",
+    "rating": 4.6,
+    "experience": 13,
+    "fee": 1050,
+    "branch_id": "DEL001",
+    "about": "DM Cardiology. Expert in coronary angiography, pacemaker implantation, and heart failure management.",
+    "available_slots": [
+      "10:00 AM",
+      "12:00 PM",
+      "2:30 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D036",
+    "name": "Dr. Shreya Joshi",
+    "specialization": "Pediatrician",
+    "rating": 4.8,
+    "experience": 11,
+    "fee": 750,
+    "branch_id": "DEL001",
+    "about": "MD Pediatrics. Expert in neonatal care, child immunization, growth development, and pediatric nutrition.",
+    "available_slots": [
+      "9:00 AM",
+      "11:00 AM",
+      "1:00 PM",
+      "3:30 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D037",
+    "name": "Dr. Ritu Kapoor",
+    "specialization": "Psychiatrist",
+    "rating": 4.6,
+    "experience": 12,
+    "fee": 1100,
+    "branch_id": "DEL001",
+    "about": "MD Psychiatry. Expert in anxiety, bipolar disorder, PTSD, eating disorders, and cognitive therapy.",
+    "available_slots": [
+      "10:30 AM",
+      "12:30 PM",
+      "3:00 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D038",
+    "name": "Dr. Suresh Patel",
+    "specialization": "Orthopedist",
+    "rating": 4.7,
+    "experience": 16,
+    "fee": 950,
+    "branch_id": "GUR001",
+    "about": "MS, MCh Orthopedics. Expert in robotic knee replacement, micro-discectomy, and ligament reconstruction.",
+    "available_slots": [
+      "9:30 AM",
+      "11:30 AM",
+      "2:00 PM",
+      "4:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D039",
+    "name": "Dr. Sandeep Batra",
+    "specialization": "Cardiologist",
+    "rating": 4.5,
+    "experience": 14,
+    "fee": 1100,
+    "branch_id": "GUR001",
+    "about": "DM Cardiology. Specialises in preventive cardiology, lipid management, and cardiac CT.",
+    "available_slots": [
+      "10:00 AM",
+      "1:00 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D040",
+    "name": "Dr. Deepika Sharma",
+    "specialization": "Endocrinologist",
+    "rating": 4.6,
+    "experience": 13,
+    "fee": 1050,
+    "branch_id": "GUR001",
+    "about": "DM Endocrinology. Handles insulin therapy, thyroid disease, PCOS, and metabolic syndrome.",
+    "available_slots": [
+      "9:00 AM",
+      "11:00 AM",
+      "2:30 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D041",
+    "name": "Dr. Nikhil Saxena",
+    "specialization": "Dermatologist",
+    "rating": 4.5,
+    "experience": 7,
+    "fee": 650,
+    "branch_id": "NOI001",
+    "about": "MD Dermatology. Treats skin infections, dermatitis, eczema, psoriasis, and hair disorders.",
+    "available_slots": [
+      "9:30 AM",
+      "11:00 AM",
+      "1:30 PM",
+      "3:30 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D042",
+    "name": "Dr. Preeti Agarwal",
+    "specialization": "Nephrologist",
+    "rating": 4.6,
+    "experience": 11,
+    "fee": 1100,
+    "branch_id": "NOI001",
+    "about": "DM Nephrology. Specialises in CKD management, proteinuria, kidney biopsy, and dialysis.",
+    "available_slots": [
+      "10:00 AM",
+      "12:30 PM",
+      "3:30 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D043",
+    "name": "Dr. Karthik Subramaniam",
+    "specialization": "Cardiologist",
+    "rating": 4.8,
+    "experience": 19,
+    "fee": 1300,
+    "branch_id": "CHE001",
+    "about": "DM Cardiology, FESC. Expert in interventional cardiology, PTCA, and cardiac device implantation.",
+    "available_slots": [
+      "10:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D044",
+    "name": "Dr. Usha Ramakrishnan",
+    "specialization": "Ophthalmologist",
+    "rating": 4.7,
+    "experience": 14,
+    "fee": 800,
+    "branch_id": "CHE001",
+    "about": "MS Ophthalmology. Expert in LASIK, cataract surgery, cornea transplant, and macular degeneration.",
+    "available_slots": [
+      "9:30 AM",
+      "11:30 AM",
+      "2:00 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D045",
+    "name": "Dr. Balaji Iyer",
+    "specialization": "Gastroenterologist",
+    "rating": 4.6,
+    "experience": 13,
+    "fee": 1050,
+    "branch_id": "CHE001",
+    "about": "DM Gastroenterology. Treats GERD, IBS, liver cirrhosis, jaundice, and pancreatic disorders.",
+    "available_slots": [
+      "9:00 AM",
+      "11:00 AM",
+      "2:30 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D046",
+    "name": "Dr. Janani Venkatesh",
+    "specialization": "Pediatrician",
+    "rating": 4.5,
+    "experience": 10,
+    "fee": 700,
+    "branch_id": "CHE001",
+    "about": "MD Pediatrics. Expert in newborn screening, child growth monitoring, vaccination, and infections.",
+    "available_slots": [
+      "9:30 AM",
+      "11:00 AM",
+      "1:00 PM",
+      "3:30 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D047",
+    "name": "Dr. Priya Rajan",
+    "specialization": "Dermatologist",
+    "rating": 4.7,
+    "experience": 12,
+    "fee": 800,
+    "branch_id": "CHE002",
+    "about": "MD Dermatology. Expert in pigmentation, anti-aging, hair transplant evaluation, and skin biopsy.",
+    "available_slots": [
+      "9:00 AM",
+      "11:00 AM",
+      "1:00 PM",
+      "3:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D048",
+    "name": "Dr. Shanmugam Ravi",
+    "specialization": "Pulmonologist",
+    "rating": 4.5,
+    "experience": 11,
+    "fee": 850,
+    "branch_id": "CHE002",
+    "about": "MD Pulmonology. Expert in respiratory infections, bronchial asthma, IPF, and pulmonary hypertension.",
+    "available_slots": [
+      "9:30 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D049",
+    "name": "Dr. Gomathy Krishnaswamy",
+    "specialization": "Endocrinologist",
+    "rating": 4.6,
+    "experience": 15,
+    "fee": 1100,
+    "branch_id": "CHE002",
+    "about": "DM Endocrinology. Specialist in diabetes reversal programs, hypothyroidism, and adrenal gland conditions.",
+    "available_slots": [
+      "10:00 AM",
+      "12:30 PM",
+      "3:30 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D050",
+    "name": "Dr. Murugan Pillai",
+    "specialization": "General Physician",
+    "rating": 4.3,
+    "experience": 9,
+    "fee": 400,
+    "branch_id": "COI001",
+    "about": "MBBS, MD. Expert in general medicine, routine check-ups, allergy treatment, and infections.",
+    "available_slots": [
+      "9:00 AM",
+      "10:00 AM",
+      "11:00 AM",
+      "12:00 PM",
+      "2:00 PM",
+      "4:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D051",
+    "name": "Dr. Kavitha Annamalai",
+    "specialization": "Cardiologist",
+    "rating": 4.5,
+    "experience": 12,
+    "fee": 950,
+    "branch_id": "COI001",
+    "about": "DM Cardiology. Specialises in lipid management, cardiac rehabilitation, and echocardiography.",
+    "available_slots": [
+      "10:00 AM",
+      "1:00 PM",
+      "4:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D052",
+    "name": "Dr. Samir Das",
+    "specialization": "Cardiologist",
+    "rating": 4.7,
+    "experience": 17,
+    "fee": 1100,
+    "branch_id": "KOL001",
+    "about": "DM Cardiology, FICS. Specialist in interventional cardiology and cardiac electrophysiology.",
+    "available_slots": [
+      "10:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D053",
+    "name": "Dr. Debjani Roy",
+    "specialization": "Nephrologist",
+    "rating": 4.6,
+    "experience": 14,
+    "fee": 1150,
+    "branch_id": "KOL001",
+    "about": "DM Nephrology. Expert in polycystic kidney disease, nephrotic syndrome, and dialysis therapy.",
+    "available_slots": [
+      "9:30 AM",
+      "11:30 AM",
+      "2:30 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D054",
+    "name": "Dr. Subhajit Mukherjee",
+    "specialization": "Psychiatrist",
+    "rating": 4.5,
+    "experience": 10,
+    "fee": 1000,
+    "branch_id": "KOL001",
+    "about": "MD Psychiatry. Expert in schizophrenia, mood disorders, substance de-addiction, and CBT.",
+    "available_slots": [
+      "10:30 AM",
+      "1:00 PM",
+      "3:30 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Fri"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D055",
+    "name": "Dr. Arpita Bose",
+    "specialization": "General Physician",
+    "rating": 4.2,
+    "experience": 6,
+    "fee": 400,
+    "branch_id": "KOL002",
+    "about": "MBBS, MD. Manages fever, cold, cough, general wellness, and preventive care.",
+    "available_slots": [
+      "9:00 AM",
+      "10:30 AM",
+      "12:00 PM",
+      "2:00 PM",
+      "4:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D056",
+    "name": "Dr. Rupam Ghosh",
+    "specialization": "Dermatologist",
+    "rating": 4.4,
+    "experience": 8,
+    "fee": 650,
+    "branch_id": "KOL002",
+    "about": "MD Dermatology. Specialist in contact dermatitis, urticaria, and tropical skin diseases.",
+    "available_slots": [
+      "9:30 AM",
+      "11:00 AM",
+      "2:00 PM",
+      "4:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D057",
+    "name": "Dr. Rakesh Srivastava",
+    "specialization": "General Physician",
+    "rating": 4.3,
+    "experience": 10,
+    "fee": 400,
+    "branch_id": "LKO001",
+    "about": "MBBS, MD. Handles fever, infections, hypertension, diabetes management, and preventive care.",
+    "available_slots": [
+      "9:00 AM",
+      "10:30 AM",
+      "12:00 PM",
+      "2:00 PM",
+      "4:00 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D058",
+    "name": "Dr. Alka Gupta",
+    "specialization": "Dermatologist",
+    "rating": 4.4,
+    "experience": 9,
+    "fee": 600,
+    "branch_id": "LKO001",
+    "about": "MD Dermatology. Expert in inflammatory skin diseases, lichen planus, and phototherapy.",
+    "available_slots": [
+      "9:30 AM",
+      "11:00 AM",
+      "2:30 PM",
+      "5:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D059",
+    "name": "Dr. Hemant Sharma",
+    "specialization": "General Physician",
+    "rating": 4.2,
+    "experience": 8,
+    "fee": 400,
+    "branch_id": "JAI001",
+    "about": "MBBS, MD. Specialist in general medicine, fever, chronic diseases, and routine health check-ups.",
+    "available_slots": [
+      "9:00 AM",
+      "10:30 AM",
+      "12:00 PM",
+      "2:00 PM",
+      "4:30 PM",
+      "6:00 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  },
+  {
+    "id": "D060",
+    "name": "Dr. Neetu Agarwal",
+    "specialization": "Cardiologist",
+    "rating": 4.5,
+    "experience": 13,
+    "fee": 1000,
+    "branch_id": "JAI001",
+    "about": "DM Cardiology. Expert in heart failure, arrhythmia, valvular heart disease, and preventive cardiology.",
+    "available_slots": [
+      "10:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "5:30 PM"
+    ],
+    "working_days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "booked_slots": {}
+  }
+]
